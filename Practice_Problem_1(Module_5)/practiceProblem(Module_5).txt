@@ -1,0 +1,11 @@
+1. write code to find a number even or odd.
+2. write code to sort an array in ascending or descending order.
+3. write code to find a number that is a leap year.
+4. write code to find a series of divisible numbers by 3 and 5 in an array.
+5. write code to find the largest string in a list.
+6. write code to find unique numbers in a duplicate numbers list.
+7. write code to find a maximum number in a list.
+
+
+
+
