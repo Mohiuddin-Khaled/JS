@@ -1,0 +1,82 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.balance-container {
+    margin-top: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.amount-box {
+    box-shadow: 8px 4px 4px gray;
+    height: 180px;
+    width: 250px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.deposit {
+    background-color: rgb(158, 187, 187);
+}
+
+.withdraw {
+    background-color: rgb(160, 190, 170);
+}
+
+.total {
+    background-color: rgb(160, 100, 100);
+}
+
+.balance-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.insert-value {
+    margin-top: 70px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.insert-box {
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 150px;
+    width: 230px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.input-value {
+    height: 30px;
+    text-align: center;
+}
+
+.btn {
+    margin-top: 15px;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+}
+
+.deposit-btn {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+.withdraw-btn {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}

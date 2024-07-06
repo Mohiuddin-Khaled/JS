@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- cascading style sheet file -->
+     <link rel="styleSheet" href="style.css">
+</head>
+<body>
+    
+    <div class="balance-container">
+        <div class="deposit amount-box">
+            <h1 id="add-deposit">000</h1>
+            <p class="balance-text">Deposit</p>
+        </div>
+        <div class="withdraw amount-box">
+            <h1 id="add-withdraw">000</h1>
+            <p class="balance-text">Withdraw</p>
+        </div>
+        <div class="total amount-box">
+            <h1 id="add-total">000</h1>
+            <p class="balance-text">Total</p>
+        </div>
+    </div>
+
+    <div class="insert-value">
+        <div class="deposit-amount insert-box">
+            <div>
+                <input class="input-value" type="number" name="" id="deposit-input" placeholder="Enter deposit amount">
+                <button onclick="handleDeposit()" class="btn deposit-btn" type="button">Deposit</button>
+            </div>
+        </div>
+        <div class="withdraw-amount insert-box">
+            <div>
+                <input class="input-value" type="number" name="" id="withdraw-input" placeholder="Enter withdraw amount">
+                <button onclick="handleWithdraw()" class="btn withdraw-btn" type="button">Withdraw</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- script file -->
+     <script src="project.js"></script>
+</body>
+</html>
