@@ -1,0 +1,30 @@
+1. Sum of Array Elements:
+Write a function that takes an array of numbers as input and returns the sum of all the elements.
+
+2. Find Maximum Value:
+Create a function that finds and returns the maximum value in an array of numbers.
+
+3. Filter Even Numbers:
+Write a function that takes an array of numbers and returns a new array containing only the even numbers.
+
+4. Reverse String:
+Implement a function that reverses a given string using loops.
+
+5. Check Prime Numbers:
+Create a function that determines if a given number is prime. The function should return true for prime numbers and false for non-prime numbers.
+
+6. Remove Duplicates:
+Write a function that takes an array as input and returns a new array with duplicate elements removed.
+
+7. FizzBuzz:
+Implement the classic FizzBuzz problem. Loop through numbers from 1 to 100. If a number is divisible by 3, print "Fizz"; if it's divisible by 5, print "Buzz"; if it's divisible by both 3 and 5, print "FizzBuzz"; otherwise, print the number.
+
+8. Factorial Calculation:
+Write a function to calculate the factorial of a given number using loops.
+
+9. Check Palindrome:
+Implement a function that checks whether a given string is a palindrome (reads the same backward as forward).
+
+10. Find Common Elements:
+Write a function that takes two arrays as input and returns a new array containing elements that are common to both arrays.
+
