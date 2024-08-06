@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@100;200;300;400;500;1,600;700;800;900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.search-box {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.search-input {
+  padding: 20px 20px;
+  border-radius: 5px;
+}
+
+.search-btn {
+  padding: 15px 15px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(30, 165, 215);
+  border: none;
+  border-radius: 5px;
+}
+
+.meal-count {
+  text-align: center;
+}
+
+.total-meal {
+  color: red;
+}
+
+.error-massage {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* meals container div */
+.meals-container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box {
+  height: 350px;
+  width: 300px;
+  border: 1px solid gray;
+  padding: 5px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.box-img {
+  width: 260px;
+  height: 160px;
+}
+
+.btn-details {
+  text-align: center;
+}
+
+.icon_details {
+  font-size: 30px;
+  color: red;
+}
