@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="resources/favicon-32x32.png" />
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <!--fontawesome CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>PH Tube</title>
+</head>
+
+<body>
+    <section class="mt-4 pt-4">
+        <div class="blog container accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <strong>Discuss the scope of var, let, and const!</strong>
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body" style="text-align: left">
+                        <h5 style="color: red">var:</h5>
+                        <li>
+                            <strong style="color: blue">Function Scope:</strong> Variables
+                            declared with var are function-scoped. They are only accessible
+                            within the function where they are defined.
+                        </li>
+                        <li>
+                            <strong style="color: blue">Hoisting:</strong>
+                            Variables declared with var are hoisted to the top of their
+                            containing function or global scope, meaning use can use them
+                            before they are declared, but they will be initialized with
+                            undefined untill their actual declaration.
+                        </li>
+                        <br />
+                        <h5 style="color: red">let:</h5>
+                        <li>
+                            <strong style="color: blue">Block Scope:</strong> Variables
+                            declared with let are block-scoped, meaning they arer accessible
+                            only within the block where they are defined. A block can be a
+                            function, loop, or any code enclosed in curly braces {}.
+                        </li>
+                        <li>
+                            <strong style="color: blue">Hoisting:</strong>
+                            Variables declared with let are also hoisted to the top of their
+                            containing block, but they are not initialized, so you can't use
+                            them before their declaration.
+                        </li>
+                        <br />
+                        <h5 style="color: red">const:</h5>
+                        <li>
+                            <strong style="color: blue">Block Scope:</strong> Like let,
+                            const, is also block-scoped.
+                        </li>
+                        <li>
+                            <strong style="color: blue">Immutability:</strong>
+                            Variables declared with const are meant to be constants, and
+                            their value cannot be reassigned after initialization. However,
+                            for object and arrays declared with const, you can still modify
+                            their properties or elements, you just can't reassign the
+                            variable itself.
+                        </li>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <strong>Tell us the use cases of null and undefined!</strong>
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body" style="text-align: left">
+                        <h5 style="color: red">null:</h5>
+                        <ul>
+                            <strong style="color: blue">Use Cases:</strong>
+                            <li>
+                                <strong style="color: blue">Explicit Absence of Value: </strong>It can be used to
+                                explicitly indicate that a variable, object
+                                property, or array element has no value or has been
+                                intentionally cleared.
+                            </li>
+                            <li>
+                                <strong style="color: blue">As a Placeholder: </strong> It can
+                                be used as a placeholder value until a meaningful value is
+                                assigned.
+                            </li>
+                            <li>
+                                <strong style="color: blue">Clearing References: </strong> It
+                                can be used to release memory or resources by clearing
+                                references to objects.
+                            </li>
+                        </ul>
+                        <h5 style="color: red">undefined:</h5>
+                        <ul>
+                            <strong style="color: blue">Use Cases:</strong>
+                            <li>
+                                <strong style="color: blue">Uninitialized Variables: </strong>Variables that are
+                                declared but not initialized are
+                                automatically assigned the value undefined.
+                            </li>
+                            <li>
+                                <strong style="color: blue">Non-existent Properties: </strong>
+                                Accessing properties of an object that do not exist returns
+                                undefined.
+                            </li>
+                            <li>
+                                <strong style="color: blue">Function Returns: </strong>
+                                Functions that do not return a value implicitly return
+                                undefined.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <strong>What do you mean by REST API!</strong>
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body" style="text-align: left">
+                        <h5 style="color: red">REST API:</h5>
+                        <p>
+                            A REST API (also called a RESTful API or RESTful web API) is an
+                            application programming interface (API) that conforms to the
+                            design principles of the representational state transfer (REST)
+                            architectural style.
+                        </p>
+                        <ul>
+                            <strong style="color: blue">In HTTP 5 methods are used in a REST-based Architecture such
+                                as POST, GET, PUT, PATCH, and DELETE:</strong>
+                            <li>
+                                <strong style="color: blue">GET: </strong>The HTTP GET method
+                                is used to read or retrieve a representation of a resource.
+                            </li>
+                            <li>
+                                <strong style="color: blue">POST: </strong>
+                                The POST verb is most often utilized to create new resources.
+                                It is used to create subordinate resources.
+                            </li>
+                            <li>
+                                <strong style="color: blue">PUT: </strong>
+                                It can be used to create a resource in the case where the
+                                resource ID is chosen by the client instead of by the server.
+                            </li>
+                            <li>
+                                <strong style="color: blue">PATCH: </strong> The PATCH request
+                                only needs to contain the changes to the resource, not the
+                                complete resource.
+                            </li>
+                            <li>
+                                <strong style="color: blue">DELETE: </strong> It is used to
+                                delete a resource identified by a URI.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!--Button back to home page-->
+            <div class="container mt-2 pt-2">
+                <a href="index.html">
+                    <button type="button" class="btn" style="background-color: rgb(230, 230, 230)">
+                        Back to home
+                    </button>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--Bootstrap JS (Make sure this is included after Bootstrap CSS)-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"
+        defer></script>
+    <!--Your Custom JS (if any)-->
+    <script src="project.js" defer></script>
+</body>
+
+</html>
